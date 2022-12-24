@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1024px){
+    .container{
+        width: 90%;
+    }
+    .static-box{
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .container{
+        width: 70%;
+    }
+    .navbar{
+        position: relative;
+    }
+    .menu-list{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 80px;
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+        top: -100%;
+        display: none;
+    }
+    
+    .menu-item a{
+        color: black;
+    }
+    .burger{
+        display: flex;
+    }
+
+    /* about-us*/
+    .about_us{
+        display: block;
+    }
+    .about_us-left{
+        width: 100%;
+    }
+    .about_us-right-img{
+        width: 90%;
+        margin-top: 30px;
+    }
+    .about_us-left-top-text{
+        width: 90%;
+    }
+    .bout_us-left-buttom-text, .buttom_text{
+        width: 48%;
+    }
+    /* about-us end */
+    .section_two-block{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(1fr);
+        grid-gap: 30px;
+        /* border: 1px solid; */
+    }
+    /* about-us end */
+    /* static */
+    .static-box{
+        width: 75%;
+    }
+    .static-box h2{
+        font-size: 35px;
+        font-weight: 600;
+        color: var(--white);
+    }
+    .static-box p{
+        width: 80%;
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-weight: 400;
+        margin: 15px auto;
+        color: var(--white);
+    }
+    .static-block-on i{
+        font-size: 30px;
+    }
+    .static-block-on h1{
+        font-size: 40px ;
+        margin-top: 15px;
+    }
+    .static-block-on p{
+        font-size: 14px;
+        font-weight: 300;
+    }
+}
